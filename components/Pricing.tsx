@@ -2,9 +2,10 @@ import React from "react";
 
 type Plan = {
   name: string;
-  price: number;
-  duration: string;
+  price: string;
   features: string[];
+  buttonText: string;
+  active?: boolean; // Optional field for active plans
 };
 
 type PricingProps = {
@@ -33,7 +34,6 @@ const Pricing: React.FC<PricingProps> = ({ plans }) => {
                     {plan.price}
                   </span>
                 </div>
-                {/* Horizontal Row */}
                 <hr className="my-2 border-gray-300 dark:border-gray-700" />
                 <ul role="list" className="mb-8 space-y-3 text-left">
                   {plan.features.map((feature, featureIndex) => (
