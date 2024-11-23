@@ -3,10 +3,9 @@ import Image from "next/image";
 
 interface ThreeDCardProps {
   imageSrc: string;
-  linkHref: string;
 }
 
-export function ThreeDCardDemo({ imageSrc, linkHref }: ThreeDCardProps) {
+export function ThreeDCardDemo({ imageSrc }: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var py-10">
       <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[28rem] h-[400px] rounded-xl border transition-transform duration-500 ease-in-out hover:scale-105 my-1 flex flex-col">

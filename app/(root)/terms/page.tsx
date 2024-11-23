@@ -25,9 +25,9 @@ const TermsPage = () => {
               EMRChains, a next-generation electronic medical record (EMR)
               system, leverages blockchain technology to improve the security,
               efficiency, and accuracy of patient data management. These terms
-              and conditions ("Terms") apply to your use of the EMRChains
-              platform and services ("Services") and form a legally binding
-              agreement between you and EMRChains.
+              and conditions (&quot;Terms&quot;) apply to your use of the
+              EMRChains platform and services (&quot;Services&quot;) and form a
+              legally binding agreement between you and EMRChains.
             </p>
           </section>
 
@@ -38,9 +38,9 @@ const TermsPage = () => {
             <p className="text-gray-600 dark:text-gray-300">
               EMRChains provides hospitals and patients with a secure and
               reliable platform for storing and managing electronic medical
-              records ("EMR"). Our Services assist hospitals in improving the
-              efficiency and accuracy of patient data management and provide
-              patients access to their own medical records.
+              records (&quot;EMR&quot;). Our Services assist hospitals in
+              improving the efficiency and accuracy of patient data management
+              and provide patients access to their own medical records.
             </p>
           </section>
 
@@ -84,7 +84,7 @@ const TermsPage = () => {
               Disclaimer of Warranties
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
-              EMRChains provides the Services "as is" and makes no
+              EMRChains provides the Services &quot;as is&quot; and makes no
               representations or warranties of any kind, express or implied, as
               to the operation of the Services or the information, content,
               materials, or products included on the Services.

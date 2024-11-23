@@ -24,7 +24,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  }, [items, direction, speed]);
 
   const [start, setStart] = useState(false);
 
@@ -89,7 +89,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
+        {items.map((item) => (
           <li
             className="w-[350px] h-[10rem] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700"
             key={item.alt}

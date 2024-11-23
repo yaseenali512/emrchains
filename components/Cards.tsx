@@ -1,4 +1,5 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 
@@ -29,7 +30,7 @@ const CardComponent: React.FC<CardComponentProps> = ({
               key={index}
               className="w-full h-[200px] md:h-[250px] lg:h-[300px] p-0"
             >
-              <img
+              <Image
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-full object-cover"

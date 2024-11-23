@@ -1,5 +1,5 @@
 import AboutUs from "@/components/AboutUs";
-import FutureInnovations from "@/components/FutureInnovations";
+// import FutureInnovations from "@/components/FutureInnovations";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import Pricing from "@/components/Pricing";

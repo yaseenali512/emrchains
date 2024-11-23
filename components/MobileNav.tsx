@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"; // ShadCN UI components
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"; // ShadCN UI components
 import { HiMenu } from "react-icons/hi"; // Hamburger Icon (react-icons)
 
 const MobileNav = () => {

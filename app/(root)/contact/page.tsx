@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
+import Image from "next/image";
 
 const ContactUsSection = () => {
   return (
@@ -9,7 +10,7 @@ const ContactUsSection = () => {
           <div className="lg:mb-0 mb-10">
             <div className="group w-full h-full">
               <div className="relative h-full">
-                <img
+                <Image
                   src="https://pagedone.io/asset/uploads/1696488602.png"
                   alt="Contact Us"
                   className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover"

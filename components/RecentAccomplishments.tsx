@@ -17,22 +17,13 @@ const RecentAccomplishments: React.FC = () => {
       {/* Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:px-6 px-5 justify-center">
         {/* Card 1 */}
-        <ThreeDCardDemo
-          imageSrc="/card1/im1.png"
-          linkHref="/accomplishment-1"
-        />
+        <ThreeDCardDemo imageSrc="/card1/im1.png" />
 
         {/* Card 2 */}
-        <ThreeDCardDemo
-          imageSrc="/card1/im2.png"
-          linkHref="/accomplishment-2"
-        />
+        <ThreeDCardDemo imageSrc="/card1/im2.png" />
 
         {/* Card 3 */}
-        <ThreeDCardDemo
-          imageSrc="/card1/im3.png"
-          linkHref="/accomplishment-3"
-        />
+        <ThreeDCardDemo imageSrc="/card1/im3.png" />
       </div>
     </section>
   );

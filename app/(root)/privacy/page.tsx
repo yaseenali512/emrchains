@@ -16,20 +16,17 @@ const PrivacyPolicyPage = () => {
         </div>
 
         {/* Content */}
-        <div
-          className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-3
-        "
-        >
+        <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 md:p-3">
           <section className="mb-8">
             <p className="text-gray-600 dark:text-gray-300">
               At EMRChains, we are committed to protecting the privacy and
               confidentiality of patient data. This Privacy Policy explains how
               we collect, use, and share personal information when you use our
               electronic medical record (EMR) system and related services (the
-              "Services"). By accessing or using the Services, you acknowledge
-              that you have read, understood, and agree to be bound by these
-              Terms. If you do not agree to these Terms, you are not authorized
-              to use the Services.
+              &quot;Services&quot;). By accessing or using the Services, you
+              acknowledge that you have read, understood, and agree to be bound
+              by these Terms. If you do not agree to these Terms, you are not
+              authorized to use the Services.
             </p>
           </section>
 
